@@ -44,9 +44,9 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+              {/* <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link> */}
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -55,7 +55,7 @@ export const NavBar = () => {
                 <a href="https://www.instagram.com/nengahswardana11/"><img src={navIcon3} alt="" /></a>
               </div>
               <a href="https://www.linkedin.com/in/nengah-swardana-272349194/" target="_blank" rel="noopener noreferrer">
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button class="vvd"><span>Let’s Connect</span></button>
               </a>
             </span>
           </Navbar.Collapse>

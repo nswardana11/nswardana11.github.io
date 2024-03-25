@@ -1,8 +1,8 @@
 import uipath from "../assets/img/rpa.png";
-import arduino from "../assets/img/arduino.png";
-import iot from "../assets/img/iot.png";
 import dbeaver from "../assets/img/dbeaver.png";
 import react from "../assets/img/react.png";
+import arduino from "../assets/img/arduino.png";
+import iot from "../assets/img/iot.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -45,14 +45,6 @@ export const Skills = () => {
                                 <img src={uipath} alt="Image" />
                                 <h5>Robotic Process <br></br> Automation</h5>
                             </div>
-                            <div className="item image-container">
-                                <img src={arduino} alt="Image" />
-                                <h5>Embedded Systems <br></br> Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={iot} alt="Image" />
-                                <h5>Internet <br></br> of Things</h5>
-                            </div>
                             <div className="item">
                                 <img src={dbeaver} alt="Image" />
                                 <h5>Database <br></br> Administrator</h5>
@@ -60,6 +52,14 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={react} alt="Image" />
                                 <h5>Web <br></br> Development</h5>
+                            </div>
+                            <div className="item image-container">
+                                <img src={arduino} alt="Image" />
+                                <h5>Embedded Systems <br></br> Development</h5>
+                            </div>
+                            <div className="item">
+                                <img src={iot} alt="Image" />
+                                <h5>Internet <br></br> of Things</h5>
                             </div>
                         </Carousel>
                     </div>
