@@ -1,6 +1,8 @@
 import uipath from "../assets/img/rpa.png";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import arduino from "../assets/img/arduino.png";
+import iot from "../assets/img/iot.png";
+import dbeaver from "../assets/img/dbeaver.png";
+import react from "../assets/img/react.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -35,23 +37,29 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>I bring a robust skill set to the table.
+                          <br></br> My track record of successfully applying these skills and demonstrates.
+                          <br></br> my capability and commitment to achieving outstanding results </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={uipath} alt="Image" />
-                                <h5>Robotic Process Automation</h5>
+                                <h5>Robotic Process <br></br> Automation</h5>
+                            </div>
+                            <div className="item image-container">
+                                <img src={arduino} alt="Image" />
+                                <h5>Embedded Systems <br></br> Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={iot} alt="Image" />
+                                <h5>Internet <br></br> of Things</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={dbeaver} alt="Image" />
+                                <h5>Database <br></br> Administrator</h5>
                             </div>
                             <div className="item">
-                                <img src={uipath} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={react} alt="Image" />
+                                <h5>Web <br></br> Development</h5>
                             </div>
                         </Carousel>
                     </div>
